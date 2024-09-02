@@ -1,0 +1,512 @@
+.city{
+    overflow-x: hidden; /* يمنع التمرير الأفقي */
+   
+}
+.conter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.cit1{
+    height:400px;
+    width:400px;
+    position: relative;
+    /* overflow: hidden; */
+   }
+   .cite1{
+    width:90%;
+    height:50%;
+    }
+    
+  
+.cit2{
+    height:400px;
+    width:400px;
+   position: relative;
+   }
+   .cite2{
+    width:90%;
+    height:50%;
+   
+   }
+.cit3{
+    height:400px;
+    width:400px;
+   position: relative;
+   }
+   .cite3{
+    width:90%;
+    height:50%;
+   
+    }
+
+
+ .conter2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.cit4{
+    height:400px;
+    width:400px;
+   position: relative;
+   }
+   .cite4{
+    width:90%;
+    height:50%;
+   
+    }
+.cit5{
+    height:400px;
+    width:400px;
+   position: relative;
+   }
+   .cite5{
+    width:90%;
+    height:50%;
+   
+    }
+.cit6{
+    height:400px;
+    width:400px;
+   position: relative;
+   }
+   .cite6{
+    width:90%;
+    height:50%;
+   
+    }
+.conter3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.cit7{
+    height:400px;
+    width:400px;
+   position: relative;
+   }
+   .cite7{
+    width:90%;
+    height:50%;
+   
+    }
+.cit8{
+    height:400px;
+    width:400px;
+   position: relative;
+   }
+   .cite8{
+    width:90%;
+    height:50%;
+   
+    }
+.cit9{
+    height:400px;
+    width:400px;
+    position: relative;
+    } 
+    .cite9{
+        width:90%;
+        height:50%;
+       
+        }
+
+        .cit1::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit1::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit1:hover::before,
+        .cit1:hover::after{
+            height:100%;
+        }
+        .cit2::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit2::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit2:hover::before,
+        .cit2:hover::after{
+            height:100%;
+        }
+        .cit3::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit3::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit3:hover::before,
+        .cit3:hover::after{
+            height:100%;
+        }
+        .cit4::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit4::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit4:hover::before,
+        .cit4:hover::after{
+            height:100%;
+        }
+        .cit5::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit5::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit5:hover::before,
+        .cit5:hover::after{
+            height:100%;
+        }
+        .cit6::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit6::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit6:hover::before,
+        .cit6:hover::after{
+            height:100%;
+        }
+        .cit7::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit7::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit7:hover::before,
+        .cit7:hover::after{
+            height:100%;
+        }
+        .cit8::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit8::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit8:hover::before,
+        .cit8:hover::after{
+            height:100%;
+        }
+        .cit9::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:0%;
+            border-left:5px solid  #d6ed07  ;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        .cit9::after{
+            content:"";
+            position: absolute;
+            bottom:0;
+            right:0;
+            width:100%;
+            height:0%;
+            border-right:5px solid#d6ed07;
+            transition:height 0.5s ;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+            -webkit-transition:height 0.5s ;
+            -moz-transition:height 0.5s ;
+            -ms-transition:height 0.5s ;
+            -o-transition:height 0.5s ;
+        }
+        
+        .cit9:hover::before,
+        .cit9:hover::after{
+            height:100%;
+        }
+
+       
+
+
+
+       
+    
+ 

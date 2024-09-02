@@ -1,0 +1,19 @@
+.img1{
+    height:100px;
+    width:100px;
+    margin:0px 100px 0px 30px;
+}
+.nav-link,
+.nav-link.active{
+    margin:0px 50px 0px 50px;
+    font-size:18px;
+font-weight: 500;
+}
+
+nav{
+    background-color: rgba(234, 116, 12, 0.392);
+    position: fixed !important;
+    width:100%;
+    box-shadow: 30px 30px 30px rgba(223, 0, 0, 0.3); /* تطبيق الظل */
+}
+

@@ -1,0 +1,9 @@
+.backgroundtourest{
+    background-image: url(../../Assets/صور-طائرات.jpg);
+    background-size: cover; /* تجعل الصورة تغطي كامل الخلفية دون تمدد */
+    /* background-attachment: fixed; تجعل الخلفية ثابتة عند التمرير */
+    background-repeat: no-repeat; /* تمنع تكرار الصورة */
+    background-position: center;
+    width: 100%;
+    height:100vh;
+}

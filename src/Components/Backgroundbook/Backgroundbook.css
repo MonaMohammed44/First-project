@@ -1,0 +1,96 @@
+.Backgroundbook{
+ background-image: url(../../Assets/download.jpeg);
+ background-size: cover; /* تغطي الخلفية بالكامل */
+ background-position: center; /* ضبط الصورة لتكون في المنتصف */
+ background-repeat: no-repeat; /* عدم تكرار الصورة */
+ height:100vh; /* ضبط ارتفاع الخلفية ليغطي كامل الصفحة */
+ width: 100%; /* ضبط عرض الخلفية ليغطي كامل الصفحة */
+  display: flex;
+  justify-content: center;/* لتوسيط المحتوى أفقيًا */
+ align-items: center; /* لتوسيط المحتوى عموديًا */
+ height: 100vh; /* لتغطية الصفحة كاملة */
+ margin: 0;
+}
+
+.form{
+    padding: 20px;
+    border-radius:8px;
+    background-color: rgb(0, 0, 0);
+    width:500px;
+    height:500px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.from{
+    width:350px;
+    height:40px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    background-color: bisque;
+}
+
+
+.to{
+    width:350px;
+    height:40px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    background-color: bisque;  
+}
+
+
+.date{
+    width:350px;
+    height:40px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    background-color: bisque;
+}
+
+
+.submit{
+    width:350px;
+    height:40px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    background-color: bisque;
+  }
+  .submit:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+.delet{
+    width:350px;
+    height:40px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    background-color: bisque;
+}
+.delet:hover{
+    background-color: blue;
+    color: aliceblue;
+}

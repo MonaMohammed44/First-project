@@ -1,0 +1,421 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+   }
+.img{
+    
+    height:500px;
+    width:400px;
+    position: relative;
+    }
+    .Hegypt{
+        position: absolute;
+    }
+    .hegypt{
+        position: absolute;
+        top:285px;
+        font-weight:300;
+        font-size:15px ;
+        }
+
+
+.img2{
+   
+    height:500px;
+    width:400px;
+    position: relative;
+   }
+   .Hturkiye{
+    position: absolute;
+}
+.hturkiye{
+    position: absolute;
+    top:285px;
+    font-weight:300;
+    font-size:15px ;
+    }
+
+
+
+.img3{
+    
+    height:500px;
+    width:400px;
+    position: relative;
+    }
+    .Hsaudi{
+        position: absolute;
+    }
+    .hsaudi{
+        position: absolute;
+        top:285px;
+        font-weight:300;
+        font-size:15px ;
+        }
+
+
+
+    .imge{
+        width:100%;
+        height:50% ;
+        display: block;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:50%;
+            background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+            opacity: 0; /*عشان الdivميظهرشى*/
+            transition: opacity 0.3s ease; /* تأثير الانتقال */
+        }
+        .img:hover .overlay {
+            opacity: 1;
+          }
+    .imge2{
+        width:100% ;
+        height:50% ;
+        display: block;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:50%;
+        background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+        opacity: 0; /*عشان الdivميظهرشى*/
+        transition: opacity 0.3s ease; /* تأثير الانتقال */
+    }
+    .img2:hover .overlay {
+        opacity: 1;
+      }
+    .imge3{
+        width:100% ;
+        height:50% ;
+        display: block;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:50%;
+        background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+        opacity: 0; /*عشان الdivميظهرشى*/
+        transition: opacity 0.3s ease; /* تأثير الانتقال */
+    }
+    .img3:hover .overlay {
+        opacity: 1;
+      }
+
+
+    
+    .container2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top:10px;
+        margin-left:80px;
+        margin-right:80px;
+       }
+
+       .img4{
+        height:500px;
+        width:400px;
+        position: relative;
+        }
+        .Hphalestine{
+            position: absolute;
+        }
+        .hphalestine{
+            position: absolute;
+            top:285px;
+            font-weight:300;
+            font-size:15px ;
+            }
+    
+    .img5{
+       
+        height:500px;
+        width:400px;
+        position: relative;
+    }
+      
+       .Hgermany{
+        position: absolute;
+    }
+    .hgermany{
+        position: absolute;
+        top:285px;
+        font-weight:300;
+        font-size:15px ;
+        }
+    
+    .img6{
+        
+        height:500px;
+        width:400px;
+        position: relative;
+    }
+        
+        .Hjapan{
+            position: absolute;
+        }
+        .hjapan{
+            position: absolute;
+            top:285px;
+            font-weight:300;
+            font-size:15px ;
+            }
+    
+        .imge4{
+            width:100% ;
+            height:50% ;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:50%;
+            background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+            opacity: 0; /*عشان الdivميظهرشى*/
+            transition: opacity 0.3s ease; /* تأثير الانتقال */
+        }
+        .img4:hover .overlay {
+            opacity: 1;
+          }
+        .imge5{
+            width:100% ;
+            height:50% ;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:50%;
+            background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+            opacity: 0; /*عشان الdivميظهرشى*/
+            transition: opacity 0.3s ease; /* تأثير الانتقال */
+        }
+        .img5:hover .overlay {
+            opacity: 1;
+          }
+        .imge6{
+            width:100% ;
+            height:50% ;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:50%;
+            background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+            opacity: 0; /*عشان الdivميظهرشى*/
+            transition: opacity 0.3s ease; /* تأثير الانتقال */
+        }
+        .img6:hover .overlay {
+            opacity: 1;
+          }
+    
+    .iconStar{
+      color: blue;
+    }
+    .bot{
+        position: absolute;
+        top: 385px;
+        left: 110px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+
+    .bot2{
+        position: absolute;
+        top: 385px;
+        left: 120px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+    .bot3{
+        position: absolute;
+        top: 375px;
+        left: 130px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+    .bot4{
+        position: absolute;
+        top: 390px;
+        left: 100px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+    .bot5{
+        position: absolute;
+        top: 410px;
+        left: 115px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+    .bot6{
+        position: absolute;
+        top: 390px;
+        left: 120px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+    .bot7{
+        position: absolute;
+        top: 390px;
+        left: 120px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+    .bot8{
+        position: absolute;
+        top: 375px;
+        left: 120px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+    .bot9{
+        position: absolute;
+        top: 390px;
+        left: 125px;
+        width: 150px;
+        color: blue;
+        background-color: bisque;
+    }
+      
+
+
+    .container3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top:10px;
+        margin-left:80px;
+        margin-right:80px;
+       }
+
+       .img7{
+        height:500px;
+        width:400px;
+        position: relative;
+        }
+        .Hrussia{
+            position: absolute;
+        }
+        .hrussia{
+            position: absolute;
+            top:285px;
+            font-weight:300;
+            font-size:15px ;
+            }
+    
+    .img8{
+       
+        height:500px;
+        width:400px;
+        position: relative;
+    }
+      
+       .Hitaly{
+        position: absolute;
+    }
+    .hitaly{
+        position: absolute;
+        top:285px;
+        font-weight:300;
+        font-size:15px ;
+        }
+    
+    .img9{
+        
+        height:500px;
+        width:400px;
+        position: relative;
+    }
+        
+        .Hfrance{
+            position: absolute;
+        }
+        .hfrance{
+            position: absolute;
+            top:285px;
+            font-weight:300;
+            font-size:15px ;
+            }
+    
+        .imge7{
+            width:100% ;
+            height:50% ;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:50%;
+            background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+            opacity: 0; /*عشان الdivميظهرشى*/
+            transition: opacity 0.3s ease; /* تأثير الانتقال */
+        }
+        .img7:hover .overlay {
+            opacity: 1;
+          }
+        .imge8{
+            width:100% ;
+            height:50% ;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:50%;
+            background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+            opacity: 0; /*عشان الdivميظهرشى*/
+            transition: opacity 0.3s ease; /* تأثير الانتقال */
+        }
+        .img8:hover .overlay {
+            opacity: 1;
+          }
+        .imge9{
+            width:100% ;
+            height:50% ;
+            display: block;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:50%;
+            background-color: rgba(0, 0, 0, 0.728); /* اللون الأسود بشفافية */
+            opacity: 0; /*عشان الdivميظهرشى*/
+            transition: opacity 0.3s ease; /* تأثير الانتقال */
+        }
+        .img9:hover .overlay {
+            opacity: 1;
+          }
+        
